@@ -43,9 +43,9 @@ O tempo de execução das instruções no cliente foi de 1.5150041580200195, e n
 
 ## Questão 7 e 8
 
-### Mesma máquina
+### Mesma máquina (tabela 1)
 
-|    n        | 100           | 1000          | 10000          |
+|    N        | 100           | 1000          | 10000          |
 |:------------|:-------------:|:-------------:|:--------------:|
 | server-side | 0.014939      | 0.149000      | 1.576465       |
 | client-side | 0.018375      | 0.152526      | 1.582473       |
@@ -56,9 +56,9 @@ na mesma máquina, ou seja, o tempo de requisição é mínimo, pois o client-si
 <br>
 <br>
 
-### Máquinas diferentes
+### Máquinas diferentes (tabela 2)
 
-|    X        | 100           | 1000          | 10000          |
+|    N        | 100           | 1000          | 10000          |
 |:------------|:-------------:|:-------------:|:--------------:|
 | server-side | 0.051945      | 0.583914      | 6.247325       |
 | client-side | 0.057946      | 0.589876      | 6.253410       |
@@ -73,4 +73,3 @@ feita entre máquinas diferentes, o tempo de resposta entre servidor e cliente a
 Na tabela 2, podemos observar que quanto mais longe geograficamente uma máquina da outra, esse tempo de resposta tende a aumentar. Porém é um aumento ínfimo.
 Pode ser devido a problemas no meio físico de transporte, perda de pacotes, interferência na rede, etc.
 O processamento continua ocupando maior parte do tempo total de requisição entre cliente e servidor.
-
